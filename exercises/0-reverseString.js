@@ -18,6 +18,11 @@
 
 function reverseString(str) {
   // Do your code here
+  let rts = str.split('');
+  let tms = rts.reverse();
+  let mtd = tms.join('');
+
+  return mtd;
 }
 
 module.exports = reverseString
